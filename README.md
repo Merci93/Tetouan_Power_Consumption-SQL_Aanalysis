@@ -7,14 +7,23 @@ With the electricity consumption being so crucial to the country, the idea is to
 
 The data consists of 52,416 observations of energy consumption on a 10-minute window. Every observation is described by 9 feature columns.
 
-Date Time: Time window of ten minutes.
-Temperature: Weather Temperature.
-Humidity: Weather Humidity.
-Wind Speed: Wind Speed.
-General Diffuse Flows: “Diffuse flow” is a catchall term to describe low-temperature (< 0.2° to ~ 100°C) fluids that slowly discharge through sulfide mounds, fractured lava flows, and assemblages of bacterial mats and macrofauna.
-Diffuse Flows
-Zone 1 Power Consumption
-Zone 2 Power Consumption
-Zone 3 Power Consumption
+1. Date Time: Time window of ten minutes.
+2. Temperature: Weather Temperature.
+3. Humidity: Weather Humidity.
+4. Wind Speed: Wind Speed.
+5. General Diffuse Flows: “Diffuse flow” is a catchall term to describe low-temperature (< 0.2° to ~ 100°C) fluids that slowly discharge through sulfide mounds, fractured lava flows, and assemblages of bacterial mats and macrofauna.
+6. Diffuse Flows
+7. Zone 1 Power Consumption
+8. Zone 2 Power Consumption
+9. Zone 3 Power Consumption
 
 The study was performed using SQL Server Management Studio 19 t answer the following questions:
+- Total consumption per zone
+- Average consumption per zone rounded to 2 decimal places
+- Monthly average consumption per zone
+- Difference in average monthly power consumption and temperature to the overall average per zone
+- Monthly moving average
+- Monthly power consumption per zone
+- Monthly power consumption as a percentage of total power consumption per zone
+- Monthly change in power consumption and temperature
+- Average monthly temperature and windspeed
